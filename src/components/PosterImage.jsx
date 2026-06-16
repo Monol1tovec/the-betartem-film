@@ -4,8 +4,8 @@ function PosterImage() {
   return (
     <section className="poster-section fade-in">
       <div className="poster-container">
-        <img
-          src="/poster.png"
+        <img 
+          src="/the-betartem-film/poster.png"
           alt="THE BETARTEM Film Poster"
           className="poster-image"
         />
