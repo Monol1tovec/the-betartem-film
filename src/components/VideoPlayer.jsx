@@ -4,17 +4,14 @@ import './VideoPlayer.css';
 const VideoPlayer = forwardRef((props, ref) => {
   return (
     <section className="video-section fade-in" ref={ref}>
-      <div className="netflix-player">
+      <div className="video-container">
 
-        <video
-          className="video"
-          controls
-          playsInline
-          preload="metadata"
-        >
-          <source src="/the-betartem-film/movie.mp4" type="video/mp4" />
-          Ваш браузер не поддерживает видео.
-        </video>
+        <iframe
+          src="https://drive.google.com/file/d/1iLQPqt_pYQHp1FwoNkUZYPS8UJyQvtDn/preview"
+          allow="autoplay"
+          allowFullScreen
+          title="THE BETARTEM Film"
+        />
 
       </div>
     </section>
