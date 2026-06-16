@@ -9,7 +9,7 @@ function VoiceActors() {
     'Rita125',
     'DaikuZ',
     'DimasGold',
-    'Nekit',
+    'Greengostin',
     'Dariy_Dash',
     'Avokado'
   ];
