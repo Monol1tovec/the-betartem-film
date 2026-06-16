@@ -7,8 +7,8 @@ const VideoPlayer = forwardRef((props, ref) => {
       <div className="video-container">
 
         <iframe
-          src="https://drive.google.com/file/d/1iLQPqt_pYQHp1FwoNkUZYPS8UJyQvtDn/preview"
-          allow="autoplay"
+          src="https://vk.com/video_ext.php?oid=411665738&id=456239907&hash=a50025561cde9839"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
           allowFullScreen
           title="THE BETARTEM Film"
         />
