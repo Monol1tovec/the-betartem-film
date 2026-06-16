@@ -15,11 +15,10 @@
 
   border-radius: 10px;
   background: black;
-
   box-shadow: 0 20px 60px rgba(0,0,0,0.7);
 }
 
-/* iframe занимает всё пространство */
+/* iframe адаптив */
 .video-container iframe {
   position: absolute;
   inset: 0;
