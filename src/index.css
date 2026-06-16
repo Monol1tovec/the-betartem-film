@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: #000000;
+  color: #e0e0e0;
+  overflow-x: hidden;
+  line-height: 1.7;
+  background:
+    radial-gradient(ellipse at top, rgba(20, 0, 0, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom, rgba(10, 0, 0, 0.3) 0%, transparent 50%),
+    #000000;
+  background-attachment: fixed;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.8);
+}

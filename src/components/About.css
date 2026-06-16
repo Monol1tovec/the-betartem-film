@@ -1,0 +1,117 @@
+.about {
+  padding: 100px 20px;
+  background:
+    radial-gradient(ellipse at center, rgba(20, 0, 0, 0.3) 0%, transparent 70%),
+    linear-gradient(180deg, #000000 0%, #030303 50%, #000000 100%);
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(220, 38, 38, 0.03) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  margin: 0 0 50px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-shadow:
+    0 0 20px rgba(220, 38, 38, 0.5),
+    0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.about-title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #dc2626, transparent);
+  box-shadow:
+    0 0 20px rgba(220, 38, 38, 0.8),
+    0 0 40px rgba(220, 38, 38, 0.4);
+}
+
+.about-description {
+  background: rgba(10, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(220, 38, 38, 0.1),
+    0 0 80px rgba(220, 38, 38, 0.15);
+  position: relative;
+}
+
+.about-description::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(220, 38, 38, 0.5), transparent);
+}
+
+.about-text {
+  font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+  line-height: 1.9;
+  color: #c0c0c0;
+  margin: 0;
+  font-weight: 300;
+  text-align: left;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-text:first-child {
+  font-weight: 500;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.about-divider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #dc2626, transparent);
+  margin: 30px auto;
+  box-shadow:
+    0 0 10px rgba(220, 38, 38, 0.6),
+    0 0 20px rgba(220, 38, 38, 0.3);
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 70px 20px;
+  }
+
+  .about-description {
+    padding: 30px 25px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+}
