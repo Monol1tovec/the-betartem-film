@@ -9,16 +9,13 @@
   width: 100%;
   max-width: 1200px;
   aspect-ratio: 16 / 9;
-
   position: relative;
   overflow: hidden;
-
   border-radius: 10px;
-  background: black;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+  background: #000;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
 }
 
-/* iframe адаптив */
 .video-container iframe {
   position: absolute;
   inset: 0;
@@ -27,7 +24,6 @@
   border: none;
 }
 
-/* 📱 мобилка */
 @media (max-width: 768px) {
   .video-section {
     padding: 20px 5px;
