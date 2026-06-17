@@ -5,14 +5,12 @@ const VideoPlayer = forwardRef((props, ref) => {
   return (
     <section className="video-section fade-in" ref={ref}>
       <div className="video-container">
-
         <iframe
-          src="https://vk.com/video_ext.php?oid=411665738&id=456239907&hash=a50025561cde9839"
-          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
-          allowFullScreen
+          src="https://vkvideo.ru/video_ext.php?oid=-239630984&id=456239017&hash=e81583184c017ea8&hd=3"
           title="THE BETARTEM Film"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+          allowFullScreen
         />
-
       </div>
     </section>
   );
